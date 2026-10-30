@@ -1,0 +1,27 @@
+# 1. Игнорируем абсолютно всё по умолчанию
+
+# 2. Разрешаем отслеживать файлы заметок и медиафайлы
+!**.md
+!**.png
+!**.jpg
+!**.jpeg
+!**.gif
+!**.svg
+!**.pdf
+
+# 3. Разрешаем заходить в скрытую папку настроек Obsidian
+!.obsidian/
+
+# 4. Игнорируем внутри папки настроек всё...
+.obsidian/*
+
+# 5. ...КРОМЕ папки с плагинами и её содержимого
+!.obsidian/plugins/
+!.obsidian/plugins/**
+
+# 6. (Опционально) Если хотите сохранить общие настройки Obsidian, темы и горячие клавиши, раскомментируйте строки ниже:
+#!.obsidian/app.json
+#!.obsidian/appearance.json
+#!.obsidian/hotkeys.json
+#!.obsidian/core-plugins.json
+#!.obsidian/community-plugins.json
