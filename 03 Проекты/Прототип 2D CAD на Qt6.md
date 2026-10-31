@@ -1,5 +1,7 @@
 ---
-tags: [project, pet_project, c++]
+tags:
+  - project
+  - pet_project
 ---
 # Прототип 2D CAD на Qt6
 
